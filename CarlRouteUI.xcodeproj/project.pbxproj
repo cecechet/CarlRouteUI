@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		3F92153C2943EFD30090AC4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F92153B2943EFD30090AC4D /* AppDelegate.swift */; };
 		3F92153E2943EFD30090AC4D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F92153D2943EFD30090AC4D /* SceneDelegate.swift */; };
-		3F9215402943EFD30090AC4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F92153F2943EFD30090AC4D /* ViewController.swift */; };
+		3F9215402943EFD30090AC4D /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F92153F2943EFD30090AC4D /* InputViewController.swift */; };
 		3F9215432943EFD30090AC4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9215412943EFD30090AC4D /* Main.storyboard */; };
 		3F9215452943EFD40090AC4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F9215442943EFD40090AC4D /* Assets.xcassets */; };
 		3F9215482943EFD40090AC4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9215462943EFD40090AC4D /* LaunchScreen.storyboard */; };
 		3F9215532943EFD40090AC4D /* CarlRouteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9215522943EFD40090AC4D /* CarlRouteUITests.swift */; };
 		3F92155D2943EFD40090AC4D /* CarlRouteUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F92155C2943EFD40090AC4D /* CarlRouteUIUITests.swift */; };
 		3F92155F2943EFD40090AC4D /* CarlRouteUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F92155E2943EFD40090AC4D /* CarlRouteUIUITestsLaunchTests.swift */; };
+		3F92156C2943FCD20090AC4D /* MapScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F92156B2943FCD20090AC4D /* MapScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,7 @@
 		3F9215382943EFD30090AC4D /* CarlRouteUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarlRouteUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F92153B2943EFD30090AC4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F92153D2943EFD30090AC4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3F92153F2943EFD30090AC4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F92153F2943EFD30090AC4D /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
 		3F9215422943EFD30090AC4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F9215442943EFD40090AC4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F9215472943EFD40090AC4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		3F9215582943EFD40090AC4D /* CarlRouteUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarlRouteUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F92155C2943EFD40090AC4D /* CarlRouteUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarlRouteUIUITests.swift; sourceTree = "<group>"; };
 		3F92155E2943EFD40090AC4D /* CarlRouteUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarlRouteUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F92156B2943FCD20090AC4D /* MapScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +103,12 @@
 			children = (
 				3F92153B2943EFD30090AC4D /* AppDelegate.swift */,
 				3F92153D2943EFD30090AC4D /* SceneDelegate.swift */,
-				3F92153F2943EFD30090AC4D /* ViewController.swift */,
+				3F92153F2943EFD30090AC4D /* InputViewController.swift */,
 				3F9215412943EFD30090AC4D /* Main.storyboard */,
 				3F9215442943EFD40090AC4D /* Assets.xcassets */,
 				3F9215462943EFD40090AC4D /* LaunchScreen.storyboard */,
 				3F9215492943EFD40090AC4D /* Info.plist */,
+				3F92156B2943FCD20090AC4D /* MapScreenViewController.swift */,
 			);
 			path = CarlRouteUI;
 			sourceTree = "<group>";
@@ -258,7 +261,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F9215402943EFD30090AC4D /* ViewController.swift in Sources */,
+				3F9215402943EFD30090AC4D /* InputViewController.swift in Sources */,
+				3F92156C2943FCD20090AC4D /* MapScreenViewController.swift in Sources */,
 				3F92153C2943EFD30090AC4D /* AppDelegate.swift in Sources */,
 				3F92153E2943EFD30090AC4D /* SceneDelegate.swift in Sources */,
 			);
